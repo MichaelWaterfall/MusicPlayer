@@ -105,5 +105,6 @@ const renderSongs = (array) => {
     })
     .join("");
 
-playlistSongs.innerHTML = songsHTML;
+  playlistSongs.innerHTML = songsHTML;
 };
+renderSongs(userData?.songs);
